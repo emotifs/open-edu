@@ -14,6 +14,7 @@ import{
 
 } from 'reactstrap';
 import { Link } from 'react-router-dom';
+import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 
 const NavSec = () => {
 
@@ -35,6 +36,8 @@ const NavSec = () => {
 
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [dropdownOpen2, setDropdownOpen2] = useState(false);
+  const [dropdownOpen3, setDropdownOpen3] = useState(false);
+  const toggle3 = () => setDropdownOpen3(prevState => !prevState);
   const toggle1 = () => setDropdownOpen(prevState => !prevState);
   const toggle2 = () => setDropdownOpen2(prevState => !prevState);
 
@@ -59,31 +62,43 @@ const NavSec = () => {
                 <Collapse isOpen={isOpen} navbar>
                     <Nav navbar>
                         <NavItem>
-                            <Link to="/">Home</Link>
+                            <Link to="/">Bosh Menyu</Link>
                         </NavItem>
                         <NavItem>
                             <Dropdown isOpen={dropdownOpen2} toggle={toggle2}>
                             <DropdownToggle className="dropdown-projects" caret>
-                                Study
+                                Muassasa
                             </DropdownToggle>
                             <DropdownMenu className="dropdown-menu">
-                                <DropdownItem><Link to="/School">School</Link></DropdownItem>
-                                <DropdownItem><Link to="/Univer">University</Link></DropdownItem>
+                                <DropdownItem><Link to="/School">Maktab</Link></DropdownItem>
+                                <DropdownItem><Link to="/Univer">Universitet</Link></DropdownItem>
                             </DropdownMenu>
                         </Dropdown>
                         </NavItem>
                         <NavItem>
-                            <Link to="/opportunities">Opportunities</Link>
+                            <Link to="/opportunities">Imkoniyatlar</Link>
                         </NavItem>
                         <NavItem>
                         <Dropdown isOpen={dropdownOpen} toggle={toggle1}>
                         <DropdownToggle className="dropdown-projects" caret>
-                            Portfolio
+                            Portfel
                         </DropdownToggle>
                         <DropdownMenu className="dropdown-menu">
-                            <DropdownItem  className="."><Link to="/create-project">Create Project</Link></DropdownItem>
+                            <DropdownItem  className="."><Link to="/all-projects">Loyihalar</Link></DropdownItem>
                             <DropdownItem className="."><Link to="/volunteering">Volunteering</Link></DropdownItem>
-                            <DropdownItem className="."><Link to="/all-projects">Projects</Link></DropdownItem>
+                            <DropdownItem className="."><Link to="/portfolio">Mening portfelim</Link></DropdownItem>
+                        </DropdownMenu>
+                        </Dropdown>
+                        </NavItem>
+                        <NavItem>
+                        <Dropdown isOpen={dropdownOpen3} toggle={toggle3}>
+                        <DropdownToggle className="dropdown-projects">
+                            <AccountCircleIcon/>
+                        </DropdownToggle>
+                        <DropdownMenu className="dropdown-menu">
+                            <DropdownItem  className="."><Link to="/log-in">Kirish</Link></DropdownItem>
+                            <DropdownItem className="."><Link to="/sign-up">Ro'yxatdan O'tish</Link></DropdownItem>
+                            <DropdownItem className="."><Link to="/portfolio">Mening Portfelim</Link></DropdownItem>
                         </DropdownMenu>
                         </Dropdown>
                         </NavItem>
