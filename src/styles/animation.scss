@@ -1,0 +1,49 @@
+//NAVBAR ANIMATION
+
+@keyframes animNav{
+    from{
+        transform: translateY(-30px);
+        opacity: 0.3;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@-moz-keyframes animNav{
+    from{
+        transform: translateY(-30px);
+        opacity: 0.3;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes animNav{
+    from{
+        transform: translateY(-30px);
+        opacity: 0.3;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@-o-keyframes animNav{
+    from{
+        transform: translateY(-30px);
+        opacity: 0.3;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.animNav{
+    animation-name: animNav;
+    -webkit-animation-name: animNav;
+    -moz-animation-name: animNav;
+    -o-animation-name: animNav;
+}

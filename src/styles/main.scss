@@ -1,0 +1,124 @@
+body{
+    overflow-x: hidden;
+}
+
+.navbar{
+    background: transparent;
+}
+
+.nav-active{
+    background: transparent;
+}
+
+.Home{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/home-header.jpg')!important;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+//nav
+nav{
+    
+    padding: 15px 0px!important;
+    .navbar-brand{
+        font-size: 25px;
+        color: #ffffff!important;
+        font-family: 'Montserrat', sans-serif;
+        span{ //logo yellow text
+            color: #FFC107;
+        }
+    }
+    .toggler{
+        background-color: #FFC107;
+    }
+    .navbar-nav{
+        margin-left: auto;
+        .nav-item{
+            margin: 20px;
+            font-size: 20px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            a{
+                color: #fff!important;
+                text-decoration: none;
+                transition: 0.2s ease;
+                -webkit-transition: 0.2s ease;
+                &:hover{
+                    color: #FFC107!important;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .dropdown-projects{
+        background-color: transparent!important;
+        border-color: transparent !important;
+        box-shadow: none!important;
+        outline : none;
+        font-size: 20px;
+        padding: 0;
+        margin: 0;
+        &:hover{
+            color: #FFC107;
+        }
+    }
+
+    .dropdown-menu{
+        background-color:rgba(0, 0, 0, 0.4);
+        .dropdown-item{
+            &:hover{
+                background-color: rgba(219, 211, 211, 0.4)!important;
+            }
+            a{
+                color: #fff!important;
+                text-decoration: none;
+                transition: 0.2s ease;
+                -webkit-transition: 0.2s ease;
+            }
+        }
+    }
+}
+//nav fixed
+nav.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    background-color: #000000cf;
+    box-shadow: 0 5px 15px #0c0c0cde;
+}
+
+
+// Home Section
+.Home{
+    color: #fff;
+}
+
+.main-goal{
+    padding: 13% 0;
+    height: 75vh;
+    h2{
+        font-size: 48px;
+        font-weight: bold;
+    }
+
+    p{
+        font-size: 24px;
+        margin: 15px 0;
+    }
+
+    a{
+        border-radius: 32px;
+    }
+}
+
+
+.school-total{
+    background-color: #000!important;
+    h1{
+        color: #000 !important;
+    }
+}
