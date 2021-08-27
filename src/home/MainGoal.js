@@ -6,10 +6,9 @@ function MainGoal() {
     return (
         <div className="main-goal">
             <Container>
-                <h2>Orzularni birgalikda <br /> <span>voqealashtiramiz</span></h2>
+                <h2>Ilmdan o'zga najot yo'qdir</h2>
                 <p>
-                    Apply to college for the first time or transfer to complete your <br/> degree. Navigate your 
-                    entire college application journey.
+                Ilm qayerda bo'lishidan qattiy nazar uni egallash va tarqatish bizning  burchimizdir, <br />majburiyatimizdir. Shunday ekan biz bilan eng zo'rlariga erishing
                 </p>
 
                 {/* <a href="#" className="btn btn-light px-4 py-3 mt-3">
