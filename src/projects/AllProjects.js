@@ -1,10 +1,22 @@
-import React from 'react'
+import React from 'react';
+import NavSec from '../home/NavSec';
+import '../projects/projects.scss';
+import './ProjectsHeader';
+import ProjectsHeader from './ProjectsHeader';
+import {
+    Container
+} from 'reactstrap'
 
 function AllProjects() {
     return (
-        <div>
-            All Projects
+       <div className="projects">
+        <div className="projects-navbar">
+            <NavSec className="dark"/>
         </div>
+        <Container> 
+            <ProjectsHeader />
+        </Container>
+       </div>
     )
 }
 

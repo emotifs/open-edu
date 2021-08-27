@@ -1,0 +1,111 @@
+.projects{
+    .projects-navbar{
+        background-color: #000!important;
+    }
+
+    .projects-header{
+        padding: 80px 0;
+
+        h1{
+            width: 16%;
+            padding: 10px 0;
+            font-size: 56px;
+            font-weight: 900;
+            border-bottom: 1px solid #FFC107;
+        }
+
+        p{
+            margin: 30px 0;
+            font-size: 20px;
+        }
+    }
+}
+
+.text-yellow{
+    color: #FFC107;
+    font-weight: bold;
+}
+
+.auth-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+  }
+  
+  .auth-inner {
+    width: 450px;
+    margin: auto;
+    background: #ffffff;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    padding: 40px 55px 45px 55px;
+    border-radius: 15px;
+    transition: all .3s;
+  }
+  
+  .auth-wrapper .form-control:focus {
+    border-color: #FFC107;
+    box-shadow: none;
+  }
+  
+  .auth-wrapper h3 {
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+    padding-bottom: 20px;
+  }
+  
+  .custom-control-label {
+    font-weight: 400;
+  }
+  
+  .forgot-password,
+  .forgot-password a {
+    text-align: right;
+    font-size: 13px;
+    padding-top: 10px;
+    color: #7f7d7d;
+    margin: 0;
+  }
+  
+  .forgot-password a {
+    color: #FFC107;
+  }
+
+  .auth-navbar{
+      background: #000;
+      margin-bottom: 100px;
+  }
+
+
+  // Portfolio
+
+.portfolio{
+  .portfolio-navbar{
+    background: #000;
+  }
+
+  .portfolio-header{
+    background-color: #FFC107;
+    padding: 100px 0;
+    position: relative;
+    img{
+      width: 220px;
+      position: absolute;
+      top: 100px;
+    }
+    .name{
+      font-size: 36px;
+      padding-top: 30px;
+    }
+    .user-id{
+      font-size: 36px;
+      text-align: right;
+      padding-top: 30px;
+      span{
+        font-weight: bold;
+      }
+    }
+  }
+}

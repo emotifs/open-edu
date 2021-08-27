@@ -10,6 +10,7 @@ const HomeMain = () => {
                 <NavSec />
            </Reveal>
             <MainGoal />
+            
         </div>
     )
 }

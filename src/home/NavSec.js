@@ -34,12 +34,6 @@ const NavSec = () => {
         }
     }
 
-  const [dropdownOpen, setDropdownOpen] = useState(false);
-  const [dropdownOpen2, setDropdownOpen2] = useState(false);
-  const [dropdownOpen3, setDropdownOpen3] = useState(false);
-  const toggle3 = () => setDropdownOpen3(prevState => !prevState);
-  const toggle1 = () => setDropdownOpen(prevState => !prevState);
-  const toggle2 = () => setDropdownOpen2(prevState => !prevState);
 
     useEffect(() => {
         window.addEventListener('scroll', handleScroll)
@@ -50,6 +44,14 @@ const NavSec = () => {
         x.push('fixed');
         x.push('nav-active');
     }
+
+    
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [dropdownOpen2, setDropdownOpen2] = useState(false);
+  const [dropdownOpen3, setDropdownOpen3] = useState(false);
+  const toggle3 = () => setDropdownOpen3(prevState => !prevState);
+  const toggle1 = () => setDropdownOpen(prevState => !prevState);
+  const toggle2 = () => setDropdownOpen2(prevState => !prevState);
 
     return(
         <Container>
@@ -98,7 +100,6 @@ const NavSec = () => {
                         <DropdownMenu className="dropdown-menu">
                             <DropdownItem  className="."><Link to="/log-in">Kirish</Link></DropdownItem>
                             <DropdownItem className="."><Link to="/sign-up">Ro'yxatdan O'tish</Link></DropdownItem>
-                            <DropdownItem className="."><Link to="/portfolio">Mening Portfelim</Link></DropdownItem>
                         </DropdownMenu>
                         </Dropdown>
                         </NavItem>
