@@ -14,7 +14,7 @@ function PortfolioHeader() {
             <Container>
                 <Row>
                     <Col lg="4">
-                        <img src={user} className="profile-photo"/>
+                        <img src={user} alt="#" className="profile-photo"/>
                     </Col>
 
                     <Col lg="4" sm="2">

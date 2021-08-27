@@ -30,6 +30,7 @@ body{
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100%;
+    background-attachment: fixed;
     backdrop-filter: blur(5px)!important;
 
 }
@@ -37,6 +38,7 @@ body{
 //nav
 nav{
     padding: 15px 0px!important;
+    width: 100%!important;
     .navbar-brand{
         font-size: 25px;
         color: #ffffff!important;
@@ -97,10 +99,10 @@ nav{
 }
 //nav fixed
 nav.fixed{
-    position: fixed!important;
+    position: fixed;
     top: 0;
     left: 0;
-    z-index: 99;
+    z-index: 9999;
     width: 100%;
     backdrop-filter: blur(10px);
     background-color: #000000cf;
@@ -134,4 +136,61 @@ nav.fixed{
 
 .home-spanner{
     color: #FFC107;
+}
+
+.institut{
+    width: 100%;
+    color: #fff;
+    background-image: url('../images/muassasa.jpg');
+    background-size: cover;
+    background-position: center;
+    .instit{
+        padding: 100px 0;
+        ul{
+            li{
+                padding: 20px 0;
+                h3{
+                 font-size: 34px;
+                 color:#FFC107;
+                }
+                p{
+                    font-size: 20px;
+                }
+            }
+        }
+     }
+}
+
+.header-text{
+    padding: 50px 0;
+    h1{
+        width: 10%;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px 0;
+        border-bottom: 1px solid #FFC107;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p{
+        width: 25%;
+        padding: 20px 0;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.second-sec-info{
+    margin-top: 70px!important;
+    h3{
+        font-size: 36px;
+        font-weight: bold;
+        margin: 30px 0;
+    }
+
+    p{
+        width: 70%;
+        margin: 15px 0;
+    }
 }
