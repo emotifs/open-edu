@@ -5,9 +5,6 @@ import NavSec from '../home/NavSec';
 function SignUp() {
     return (
         <>
-            <div className="auth-navbar">
-        <NavSec />
-         </div>
         <div className="auth-wrapper">
                <div className="auth-inner">
                    
