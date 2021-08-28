@@ -16,6 +16,10 @@ function SignUp() {
                     <input type="text" className="form-control" placeholder="First name" />
                 </div>
 
+                <div className="form-group my-3">
+                    <label>Familya</label>
+                    <input type="text" className="form-control" placeholder="Last name" />
+                </div>
               
                 <div className="form-group my-3">
                     <label>Email address</label>
