@@ -5,7 +5,7 @@ import Reveal from 'react-reveal/Reveal';
 import UniverList from './SchoolList';
 import FooterContainer from '../footer/containers/footer'
 
-function sCHOOL() {
+function School() {
     return (
         <div>
              <div className="dark-navbar">
@@ -29,4 +29,4 @@ function sCHOOL() {
     )
 }
 
-export default sCHOOL;
+export default School;
