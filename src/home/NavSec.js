@@ -74,6 +74,7 @@ const NavSec = () => {
                             <DropdownMenu className="dropdown-menu">
                                 <DropdownItem><Link to="/School">Maktab</Link></DropdownItem>
                                 <DropdownItem><Link to="/Univer">Universitet</Link></DropdownItem>
+                                <DropdownItem><Link to="/center">O'quv Markaz</Link></DropdownItem>
                             </DropdownMenu>
                         </Dropdown>
                         </NavItem>

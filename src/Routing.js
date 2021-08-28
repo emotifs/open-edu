@@ -10,6 +10,7 @@ import MyPortfolio from './projects/MyPortfolio';
 import Opportunities from './opportunities/Oppotunities';
 import LogIn from './user/LogIn';
 import SignUp from './user/SignUp';
+import Center from './study/Center';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -26,6 +27,7 @@ function Routing() {
         <Route path="/opportunities" component={Opportunities}/>
         <Route path="/log-in" component={LogIn}/>
         <Route path="/sign-up" component={SignUp}/>
+        <Route path="/center" component={Center}/>
       </Switch>
     </Router>
   );
