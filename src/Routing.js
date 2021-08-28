@@ -11,6 +11,7 @@ import Opportunities from './opportunities/Oppotunities';
 import LogIn from './user/LogIn';
 import SignUp from './user/SignUp';
 import Center from './study/Center';
+import Mit from './study/Mit';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -28,6 +29,7 @@ function Routing() {
         <Route path="/log-in" component={LogIn}/>
         <Route path="/sign-up" component={SignUp}/>
         <Route path="/center" component={Center}/>
+        <Route path="/mit" component={Mit}/>
       </Switch>
     </Router>
   );

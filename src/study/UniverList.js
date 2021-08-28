@@ -1,5 +1,5 @@
-import React, {useState} from 'react'
-import {Modal} from 'reactstrap'
+import React from 'react'
+import {Link} from 'react-router-dom';
 
 function UniverList() {
 
@@ -13,7 +13,7 @@ function UniverList() {
                 <th scope="row">1</th>
                 <td>Massachusetts Institute of Technology</td>
                 <td>Xalqaro</td>
-                <td><a href="#" className="btn btn-warning btn-univer">Hujjat topshirish</a></td>
+                <td><Link to="/mit" className="btn btn-warning btn-univer"> Hujjat topshirish</Link></td>
                 <td><a href="#" className="btn btn-primary btn-univer">Batafsil ma'lumot</a></td>
                 </tr>
                 <tr>
