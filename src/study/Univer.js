@@ -26,7 +26,7 @@ function Univer() {
                         type="checkbox"
                         name="only_local"
                         id="only_local"
-                        className="form-group text-warning"
+                        className=" text-warning"
                     />
 
                     <label for="only_local"> &nbsp; &nbsp; Faqat mahalliy universitetlar</label>

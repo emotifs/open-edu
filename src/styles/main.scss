@@ -201,7 +201,7 @@ nav.fixed{
 }
 
 .page-header{
-    padding: 80px 0;
+    padding: 60px 0;
 
     h1{
         width: 35%;
@@ -266,4 +266,27 @@ nav.fixed{
 #achieve{
     margin: 50px 0;
     font-size: 24px;
+}
+
+.oppo-list{
+    .oppo-card{
+        margin: 20px 0;
+        display: flex;
+        .oppo-img{
+            width: 250px;
+            margin: 10px 30px 10px 0;
+        }
+
+        h2{
+            margin: 30px 0;
+        }
+
+        p{
+            width: 70%;
+        }
+
+        a{
+            margin: 10px 0;
+        }
+    }
 }
