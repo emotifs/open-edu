@@ -6,7 +6,7 @@ function MainGoal() {
     return (
         <div className="main-goal">
             <Container>
-                <h2>Ilmdan o'zga najot yo'qdir</h2>
+                <h2><span className="text-yellow">Ilmdan o'zga najot yo'qdir</span></h2>
                 <p>
                 Ilm qayerda bo'lishidan qattiy nazar uni egallash va tarqatish bizning  burchimizdir, <br />majburiyatimizdir. Shunday ekan biz bilan eng zo'rlariga erishing
                 </p>
