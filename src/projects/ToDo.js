@@ -69,7 +69,7 @@ function ToDo() {
 
         <h3>Portfolio:</h3>
         <div className="form-control">
-          <input type="text" className="grocery form-control" placeholder="Input your Todo List" value={name} onChange={(e) => setName(e.target.value)} />
+          <input type="text" className="grocery form-control" placeholder="Input your Portfolio List" value={name} onChange={(e) => setName(e.target.value)} />
           <button type="submit" className="submit-btn btn btn-warning ">
             {isEditing ? "edit" : "Submit!"}
           </button>
