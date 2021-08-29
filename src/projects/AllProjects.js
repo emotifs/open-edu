@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import NavSec from '../home/NavSec';
 import '../projects/projects.scss';
 import './ProjectsHeader';
@@ -30,6 +30,39 @@ import {
   const style = { width: "18rem" };
 
 function AllProjects() {
+    const [loading, setLoading] = useState(true);
+      
+    useEffect(() => {
+      const loadData = async () => {
+        await new Promise((r) => setTimeout(r, 2000));
+        setLoading((loading) => !loading);
+      };
+        
+      loadData();
+    }, [])
+    if (loading) {
+        return <div className="loader-total">
+            <div className="loader-wrapper">
+                <div className="loader">
+                <div className="roller"></div>
+                <div className="roller"></div>
+            </div>
+            
+            <div id="loader2" className="loader">
+                <div className="roller"></div>
+                <div className="roller"></div>
+            </div>
+            
+            <div id="loader3" className="loader">
+                <div className="roller"></div>
+                <div className="roller"></div>
+            </div>
+            </div>
+        </div>
+    }
+      
+    else {
+    
     return (
        <div className="projects">
         <div className="projects-navbar">
@@ -183,6 +216,7 @@ function AllProjects() {
         <FooterContainer />
        </div>
     )
+}
 }
 
 export default AllProjects

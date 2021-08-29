@@ -32,9 +32,11 @@ function SecondSec() {
                         <p>Siz erishgan yutuqlaringiz va bajargan ishlaringiz shaxsingizni yaqqol namayon qilib beradi va xarita vazifasini bajaradi</p>
                         <Link to="/portfolio" className="btn btn-warning">Ko'proq</Link>
                     </Col>
+                    <Col lg="6">
                     <Bounce right>
                         <img src={portfolio} className="w-35" alt="#" />
                     </Bounce>
+                    </Col>
                 </Row>
            </Container>
         </div>
