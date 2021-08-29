@@ -1,70 +1,16 @@
-# Getting Started with Create React App
+O'zbekistonda ta'limni rivojlantirish uchun tuzilgan web ishlanma. O'zbekiston yoshlari uchun qulaylik yaratish maqsadida tashkil etilgan bu platformada siz nimalarga ega bo'lishingiz mumkin:
+1. Masofadan turib, universitetlar reytingi va o'zingiz istagan universitetga topshirish
+2. Maktab va O'quv markazli reytingi bilan tanishish
+3. Davlat tomonidan yoshlarga berilayotgan imkoniyatlardan habardor bo'lib turish.
+4. Siz qiziqqan yo'nalish bo'yicha loyihalar topish.
+5. Loyihalar orqali o'z portfoliongizni yig'ish.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Saytning maqsadi:
+1. Portfel:
+  Isonlarni ma'lum bir maqsad yo'lida birlashtirib jamiyatda o'z o'rnini topishga ko'maklashish.
+2. Mening Portfelim:
+  Har bir o'quvchining o'zining tarixini yaratishda va saqlashda vosita vazifasini o'taydi.
+3. Imkoniyatlar
+  Bu bo'limda ko'rinadigan har bir yangiliklar siz uchun yangi imkoniyatdir.
+4. Muassasa
+  Ta'lim dargohlari o'rtasida sof raqobatni yaratib sifatning o'sishini ta'minlaydi.
