@@ -1,5 +1,4 @@
 import React from "react";
-import { FaEdit, FaTrash } from "react-icons/fa";
 const List = ({ items, removeItem, editItem }) => {
   return (
     <div className="grocery-list">
@@ -10,10 +9,10 @@ const List = ({ items, removeItem, editItem }) => {
             <p className="title">{title}</p>
             <div className="btn-container">
               <button type="button" className="edit-btn btn btn-success" onClick={() => editItem(id)}>
-                <FaEdit />
+                Edit
               </button>
               <button type="button" className="delete-btn btn btn-danger" onClick={() => removeItem(id)}>
-                <FaTrash />
+                Delete
               </button>
             </div>
           </article>

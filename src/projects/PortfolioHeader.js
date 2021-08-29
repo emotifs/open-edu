@@ -18,7 +18,7 @@ function PortfolioHeader() {
                     </Col>
 
                     <Col lg="4" sm="2">
-                        <div className="name">Palonchi <span className="surname">Palonchiyev</span></div>
+                        <div className="name">Ism <span className="surname">Familya</span></div>
                     </Col>
 
                     <Col lg="4" sm="2">
