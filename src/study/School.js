@@ -20,6 +20,13 @@ function School() {
                         Maktablar
                     </h1>
                     <p>Barcha o'rta maxsus maktablar orasidagi <span className="text-yellow">reytingi</span>
+                    <p>
+                            Maktablar quyidagi tamoyillarga asosan baholanadi. <br/>
+                            1. O'quvchilarning qo'lga kiritgan yutuqlari yoki sertifikatlari. <br/>
+                            2. O'qituvchilarning darajasi. <br/>
+                            3. O'quv binosidagi shart-sharoitlar. <br/>
+                            4. Bitiruvchilarning o'qishga kirish foizi.
+                        </p>
                     </p>
                 </div>  
                 <UniverList />

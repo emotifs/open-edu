@@ -57,15 +57,14 @@ function Center() {
                             <CardBody>
                             <CardTitle>Najot ta'lim</CardTitle>
                             <CardText>
-                                Some quick example text to build on the card title and make up the
-                                bulk of the card's content.
+                            Bootcamp UX/UI kurslarida darslar boshlanish arafasida!
                             </CardText>
                             <Button
                                 className="btn btn-warning"
-                                href="#pablo"
+                                href="https://t.me/najottalim"
                                 onClick={(e) => e.preventDefault()}
                             >
-                                Go somewhere
+                                50$
                             </Button>
                             </CardBody>
                         </Card>
@@ -79,17 +78,16 @@ function Center() {
                             top
                             ></CardImg>
                             <CardBody>
-                            <CardTitle>Card title</CardTitle>
+                            <CardTitle>PDP o'quv markazi</CardTitle>
                             <CardText>
-                                Some quick example text to build on the card title and make up the
-                                bulk of the card's content.
+                                Bizda yangi flutter kurslari ochilmoqda
                             </CardText>
                             <Button
                                 className="btn btn-warning"
-                                href="#pablo"
+                                href="https://pdp.uz"
                                 onClick={(e) => e.preventDefault()}
                             >
-                                Go somewhere
+                                40$
                             </Button>
                             </CardBody>
                         </Card>
@@ -103,17 +101,16 @@ function Center() {
                             top
                             ></CardImg>
                             <CardBody>
-                            <CardTitle>Card title</CardTitle>
+                            <CardTitle>Cambridge learning Center</CardTitle>
                             <CardText>
-                                Some quick example text to build on the card title and make up the
-                                bulk of the card's content.
+                                IELTS full course ochilisharafasida
                             </CardText>
                             <Button
                                 className="btn btn-warning"
-                                href="#pablo"
+                                href="https://cambridgeonline.uz/login"
                                 onClick={(e) => e.preventDefault()}
                             >
-                                Go somewhere
+                                60$
                             </Button>
                             </CardBody>
                         </Card>
@@ -129,17 +126,16 @@ function Center() {
                             top
                             ></CardImg>
                             <CardBody>
-                            <CardTitle>Card title</CardTitle>
+                            <CardTitle>Everest education</CardTitle>
                             <CardText>
-                                Some quick example text to build on the card title and make up the
-                                bulk of the card's content.
+                                IELTS graduation kurslari endi hamyonbop narxlarda
                             </CardText>
                             <Button
                                 className="btn btn-warning"
-                                href="#pablo"
+                                href="https://t.me/everestofficial"
                                 onClick={(e) => e.preventDefault()}
                             >
-                                Go somewhere
+                                40$
                             </Button>
                             </CardBody>
                         </Card>
@@ -153,17 +149,16 @@ function Center() {
                             top
                             ></CardImg>
                             <CardBody>
-                            <CardTitle>Card title</CardTitle>
+                            <CardTitle>Inter-nation</CardTitle>
                             <CardText>
-                                Some quick example text to build on the card title and make up the
-                                bulk of the card's content.
+                                English language kurslari
                             </CardText>
                             <Button
                                 className="btn btn-warning"
-                                href="#pablo"
+                                href="https://www.inter-nation.uz/"
                                 onClick={(e) => e.preventDefault()}
                             >
-                                Go somewhere
+                                60$
                             </Button>
                             </CardBody>
                         </Card>
@@ -177,17 +172,16 @@ function Center() {
                             top
                             ></CardImg>
                             <CardBody>
-                            <CardTitle>Card title</CardTitle>
+                            <CardTitle>Profi education</CardTitle>
                             <CardText>
-                                Some quick example text to build on the card title and make up the
-                                bulk of the card's content.
+                                SAT kurslari ochilmoqda
                             </CardText>
                             <Button
                                 className="btn btn-warning"
-                                href="#pablo"
+                                href="https://t.me/s/profieducation_group?before=2127"
                                 onClick={(e) => e.preventDefault()}
                             >
-                                Go somewhere
+                                45$
                             </Button>
                             </CardBody>
                         </Card>
