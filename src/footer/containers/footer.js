@@ -11,7 +11,6 @@ export function FooterContainer() {
                 <Footer.Title>About Us</Footer.Title>
                     <Footer.Link href="#">Alimurodov Dilbek</Footer.Link>
                     <Footer.Link href="#">Jumanazarov Ravshan</Footer.Link>
-                    <Footer.Link href="#">𝘔𝘶𝘩𝘢𝘮𝘦𝘥𝘰𝘷 𝘔𝘶𝘩𝘢𝘮𝘮𝘢𝘥𝘫𝘰𝘯</Footer.Link>
                 </Footer.Column>
                 <Footer.Column>
                 <Footer.Title>Services</Footer.Title>
