@@ -39,6 +39,11 @@ function Center() {
                         O'quv Markazlari
                     </h1>
                     <p>Barcha o'quv markazlari <span className="text-yellow">reytingi</span>  va ular haqida ma'lumot
+                    O'quv markazlari quyidagi tamoyillarga asosan baholanadi. <br/>
+                            1. O'quvchilarning qo'lga kiritgan yutuqlari yoki sertifikatlari. <br/>
+                            2. O'qituvchilarning darajasi. <br/>
+                            3. O'quv binosidagi shart-sharoitlar. <br/>
+                            4. Bitiruvchilarning ishga kirish yoki o'qishga foizi.
                     </p>
                 </div>  
                 <Row>
@@ -50,7 +55,7 @@ function Center() {
                             top
                             ></CardImg>
                             <CardBody>
-                            <CardTitle>Card title</CardTitle>
+                            <CardTitle>Najot ta'lim</CardTitle>
                             <CardText>
                                 Some quick example text to build on the card title and make up the
                                 bulk of the card's content.

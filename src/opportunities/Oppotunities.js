@@ -19,7 +19,7 @@ function Opportunities() {
                     <h1>
                         Imkoniyatlar
                     </h1>
-                    <p>Bu bo'limda chiqadigan har bitta ma'lumot siz o'sishingiz uchun ajoyib <span className="text-yellow"> imkoniyatdir</span>
+                    <p>Bu bo'limda chiqadigan har bitta yangilik siz uchun ajoyib <span className="text-yellow"> imkoniyatdir</span>
                     </p>
                 </div>  
                 <OppoList />

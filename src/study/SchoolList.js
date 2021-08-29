@@ -31,6 +31,31 @@ function SchoolList() {
             <td>Mirzo Ulugbek maktabi</td>
             <td><a href="https://muimi.uz/" className="btn btn-warning btn-school"> <LanguageIcon />  &nbsp;  Web sahifasi</a></td>
             </tr>
+            <tr>
+            <th scope="row">6</th>
+            <td>48-maktab</td>
+            <td><a href="https://t.me/oomaktab48" className="btn btn-warning btn-school"> <LanguageIcon />  &nbsp;  Web sahifasi</a></td>
+            </tr>
+            <tr>
+            <th scope="row">7</th>
+            <td>Westminister litseyi</td>
+            <td><a href="https://lyceumadmission.wiut.uz/" className="btn btn-warning btn-school"> <LanguageIcon />  &nbsp;  Web sahifasi</a></td>
+            </tr>
+            <tr>
+            <th scope="row">8</th>
+            <td>Diplomatiya litseyi</td>
+            <td><a href="https://aluwed.uz/" className="btn btn-warning btn-school"> <LanguageIcon />  &nbsp;  Web sahifasi</a></td>
+            </tr>
+            <tr>
+            <th scope="row">9</th>
+            <td>Cambridge international school</td>
+            <td><a href="https://college.cambridge.uz/" className="btn btn-warning btn-school"> <LanguageIcon />  &nbsp;  Web sahifasi</a></td>
+            </tr>
+            <tr>
+            <th scope="row">10</th>
+            <td>10-maktab</td>
+            <td><a href="#" className="btn btn-warning btn-school"> <LanguageIcon />  &nbsp;  Web sahifasi</a></td>
+            </tr>
         </tbody>
 </table>
         </div>
