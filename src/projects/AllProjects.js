@@ -17,6 +17,15 @@ import {
   } from "reactstrap";
 
   import hackaton from '../images/projects/hackaton.jpg'
+  import ziyo from '../images/volounteering and projects/ziyo.jpg'
+  import zamin from '../images/volounteering and projects/zamin.jpg'
+  import heart from '../images/volounteering and projects/heart.jpg'
+  import mfaktor from '../images/volounteering and projects/mfaktor.png'
+  import educator from '../images/volounteering and projects/educator.png'
+  import dg from '../images/volounteering and projects/dg.png'
+
+
+
 
   const style = { width: "18rem" };
 
@@ -33,21 +42,20 @@ function AllProjects() {
                         <Card style={style}>
                             <CardImg
                             alt="..."
-                            src={hackaton}
+                            src={heart}
                             top
                             ></CardImg>
                             <CardBody>
-                            <CardTitle>Card title</CardTitle>
+                            <CardTitle>Yurak amri</CardTitle>
                             <CardText>
-                                Some quick example text to build on the card title and make up the
-                                bulk of the card's content.
+                                Ushbu loyihaga yordam berish uchun ko'ngillar kerak
                             </CardText>
                             <Button
                                 className="btn btn-warning"
-                                href="#pablo"
+                                href="https://t.me/sardor_Rahimxon_Yurak_Amri_Ajruz"
                                 onClick={(e) => e.preventDefault()}
                             >
-                                Go somewhere
+                                Bog'lanish
                             </Button>
                             </CardBody>
                         </Card>
@@ -57,21 +65,20 @@ function AllProjects() {
                         <Card style={style}>
                             <CardImg
                             alt="..."
-                            src={hackaton}
+                            src={dg}
                             top
                             ></CardImg>
                             <CardBody>
-                            <CardTitle>Card title</CardTitle>
+                            <CardTitle>Digital Generation uzbekistan</CardTitle>
                             <CardText>
-                                Some quick example text to build on the card title and make up the
-                                bulk of the card's content.
+                                Bizga React bilan ishlay oladigan Front-end developerni jamoyimizga olamiz 
                             </CardText>
                             <Button
                                 className="btn btn-warning"
-                                href="#pablo"
+                                href="http://camp.digitalgeneration.uz/"
                                 onClick={(e) => e.preventDefault()}
                             >
-                                Go somewhere
+                                Bog'lanish
                             </Button>
                             </CardBody>
                         </Card>
@@ -81,21 +88,20 @@ function AllProjects() {
                         <Card style={style}>
                             <CardImg
                             alt="..."
-                            src={hackaton}
+                            src={ziyo}
                             top
                             ></CardImg>
                             <CardBody>
-                            <CardTitle>Card title</CardTitle>
+                            <CardTitle>Ziyo forum</CardTitle>
                             <CardText>
-                                Some quick example text to build on the card title and make up the
-                                bulk of the card's content.
+                                Forum tashkillashtirish uchun 
                             </CardText>
                             <Button
                                 className="btn btn-warning"
-                                href="#pablo"
+                                href="https://ziyoforum.uz/"
                                 onClick={(e) => e.preventDefault()}
                             >
-                                Go somewhere
+                                Bog'lanish
                             </Button>
                             </CardBody>
                         </Card>
@@ -107,21 +113,20 @@ function AllProjects() {
                         <Card style={style}>
                             <CardImg
                             alt="..."
-                            src={hackaton}
+                            src={zamin}
                             top
                             ></CardImg>
                             <CardBody>
-                            <CardTitle>Card title</CardTitle>
+                            <CardTitle>Zamin foundation</CardTitle>
                             <CardText>
-                                Some quick example text to build on the card title and make up the
-                                bulk of the card's content.
+                                Scratch dasturi bilan ishlasshni biladigan mentor kerak
                             </CardText>
                             <Button
                                 className="btn btn-warning"
-                                href="#pablo"
+                                href="https://www.zaminfoundation.ngo/"
                                 onClick={(e) => e.preventDefault()}
                             >
-                                Go somewhere
+                                Bog'lanish
                             </Button>
                             </CardBody>
                         </Card>
@@ -131,21 +136,20 @@ function AllProjects() {
                         <Card style={style}>
                             <CardImg
                             alt="..."
-                            src={hackaton}
+                            src={mfaktor}
                             top
                             ></CardImg>
                             <CardBody>
-                            <CardTitle>Card title</CardTitle>
+                            <CardTitle>Mfaktor</CardTitle>
                             <CardText>
-                                Some quick example text to build on the card title and make up the
-                                bulk of the card's content.
+                                Video montajchini guruhimizga taklif qilamiz
                             </CardText>
                             <Button
                                 className="btn btn-warning"
-                                href="#pablo"
+                                href="http://mfaktor.uz/"
                                 onClick={(e) => e.preventDefault()}
                             >
-                                Go somewhere
+                                Bog'lanish
                             </Button>
                             </CardBody>
                         </Card>
@@ -155,21 +159,20 @@ function AllProjects() {
                         <Card style={style}>
                             <CardImg
                             alt="..."
-                            src={hackaton}
+                            src={educator}
                             top
                             ></CardImg>
                             <CardBody>
-                            <CardTitle>Card title</CardTitle>
+                            <CardTitle>Educator</CardTitle>
                             <CardText>
-                                Some quick example text to build on the card title and make up the
-                                bulk of the card's content.
+                                Senior Backend developerni mentorlik uchun jamoamizga taklif qilamiz
                             </CardText>
                             <Button
                                 className="btn btn-warning"
-                                href="#pablo"
+                                href="https://educator.uz/"
                                 onClick={(e) => e.preventDefault()}
                             >
-                                Go somewhere
+                                Bog'lanish
                             </Button>
                             </CardBody>
                         </Card>
