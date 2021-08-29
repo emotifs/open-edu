@@ -60,9 +60,11 @@ nav{
                 text-decoration: none;
                 transition: 0.2s ease;
                 -webkit-transition: 0.2s ease;
+                padding: 10px 0;
                 &:hover{
-                    color: #FFC107!important;
+                    border-bottom:1px solid #FFC107!important;
                     text-decoration: none;
+                    transition: 0.4s;
                 }
             }
         }
@@ -230,6 +232,7 @@ nav.fixed{
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0,0, 0, 0.6)), url("../images//mit.jpg");
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     color: #fff;
     padding: 80px 0;
 
@@ -293,4 +296,33 @@ nav.fixed{
 
 .w-35{
     width: 35%!important;
+}
+
+.section-center{
+    margin: 75px 0;
+    width: 100%;
+}
+
+.form-control{
+    display: flex!important;
+}
+.grocery{
+    width: 94%!important;
+}
+
+.title{
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 4px;
+    margin: 10px 0;
+    width: 92%;
+}
+
+.grocery-item{
+    display: flex!important;
+    button{
+        padding: 5px;
+        margin: 6px;
+    }
 }
