@@ -1,8 +1,10 @@
 import React from 'react';
 import hackaton from '../images/projects/hackaton.jpg'
-import flex from '../images/projects/flex.jpg'
-import qvz from '../images/projects/qvz.jpg'
-import ioi from '../images/projects/ioi.jpg'
+import flex from '../images/projects/flex.jpg';
+import qvz from '../images/projects/qvz.jpg';
+import ioi from '../images/projects/ioi.jpg';
+import newuzb from '../images/projects/newuzb.jpg';
+import xalq from '../images/projects/xalq.png';
 
 function OppoList() {
     return (
@@ -26,7 +28,7 @@ function OppoList() {
             </div>
        
             <div className="oppo-card">
-                <img src={hackaton} className="oppo-img" alt="#"/>
+                <img src={xalq} className="oppo-img" alt="#"/>
                 <div>
                 <h2>Xalq ta'lim vazirligi</h2>
                 <p>Xalq taʼlimi tizimida har haftaning shanba kuni “Xalq qabuli kuni” deb eʼlon qilindi</p>
@@ -51,7 +53,7 @@ function OppoList() {
                 </div>
             </div>
             <div className="oppo-card">
-                <img src={hackaton} className="oppo-img" alt="#"/>
+                <img src={newuzb} className="oppo-img" alt="#"/>
                 <div>
                 <h2>Yangi O'zbekiston Universiteti</h2>
                 <p>yetakchi universitet sifatida biz jamiyat va insoniyatga xizmat qilish uchun eng yaxshi ta'lim, tadqiqot va innovatsiyalar orqali global bilim va uning amaliy yondashuvini olg'a suramiz</p>

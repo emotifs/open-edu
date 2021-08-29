@@ -21,6 +21,18 @@ function MyPortfolio() {
                     <li>
                         1-st place at IOI 2022
                     </li>
+
+                    <li>
+                        2-nd place on DG Hackathon
+                    </li>
+
+                    <li>
+                        Participated on Admission of Presidental Schools
+                    </li>
+
+                    <li>
+                        3-rd place on Internation Olympic
+                    </li>
                </ol>
             </Container>
         </div>

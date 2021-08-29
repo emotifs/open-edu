@@ -1,6 +1,7 @@
 import React from 'react'
 import '../projects/projects.scss';
 import NavSec from '../home/NavSec';
+import {Link} from 'react-router-dom';
 
 function SignUp() {
     return (
@@ -47,7 +48,7 @@ function SignUp() {
 
                 <button type="submit" className="btn btn-warning     btn-block">Sign Up</button>
                 <p className="forgot-password text-right">
-                    Already registered <a href="#">Sign in?</a>
+                    Already registered <Link to="/log-in">Sign in? </Link>
                 </p>
             </form>
                </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import NavSec from '../home/NavSec';
+import {Link} from 'react-router-dom';
 
 function LogIn() {
     return (
@@ -32,7 +33,7 @@ function LogIn() {
 
                 <button type="submit" className="btn btn-warning btn-block">Submit</button>
                 <p className="forgot-password text-right">
-                    Haven't  <a href="#">registered yet?</a>
+                    Haven't  <Link to="/sign-up">registered yet?</Link>
                 </p>
             </form>
              </div>

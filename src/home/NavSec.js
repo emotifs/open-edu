@@ -88,7 +88,6 @@ const NavSec = () => {
                         </DropdownToggle>
                         <DropdownMenu className="dropdown-menu">
                             <DropdownItem  className="."><Link to="/all-projects">Loyihalar</Link></DropdownItem>
-                            <DropdownItem className="."><Link to="/volunteering">Volunteering</Link></DropdownItem>
                             <DropdownItem className="."><Link to="/portfolio">Mening portfelim</Link></DropdownItem>
                         </DropdownMenu>
                         </Dropdown>
