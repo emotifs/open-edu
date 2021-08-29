@@ -2,6 +2,7 @@ import React from 'react';
 import {
     Container
 } from 'reactstrap';
+import Fade from 'react-reveal/Fade';
 
 function Institution() {
     return (
@@ -19,9 +20,9 @@ function Institution() {
                  <div className="instit">
                     <ul>
                         <li>
-                            <h3>
+                             <h3>
                                 Maktab
-                            </h3>
+                            </h3>                   
 
                             <p>
                                 Barcha o'rta maxsus maktablar orasidagi reyting
